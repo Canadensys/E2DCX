@@ -1,7 +1,7 @@
 E2DCX
 =====
 Creates a DataCite XML file from an EML file for DataCite Metadata Store.
-The resulting XML will respect the [DataCite Metadata Schema 2.2](http://schema.datacite.org/meta/kernel-2.2/metadata.xsd).
+The resulting XML will respect the [DataCite Metadata Schema 3.0](http://schema.datacite.org/meta/kernel-3/metadata.xsd).
 
 What you need
 =============
