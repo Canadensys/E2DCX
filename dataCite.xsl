@@ -53,7 +53,9 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0" xmlns:xs="http://
 	<formats>
 		<format>application/zip</format>
 	</formats>
-	<rights><xsl:value-of select="intellectualRights/para"/></rights>
+	<rightsList>
+	  <rights><xsl:value-of select="intellectualRights/para"/></rights>
+	</rightsList>
 	<descriptions>
 		<description descriptionType="Abstract"><xsl:value-of select="abstract/para"/></description>
 	</descriptions>
